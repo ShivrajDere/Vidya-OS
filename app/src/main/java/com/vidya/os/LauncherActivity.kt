@@ -139,7 +139,7 @@ class LauncherActivity : BaseActivity() {
         window.navigationBarColor = Color.TRANSPARENT
         @Suppress("DEPRECATION")
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_STABLE or
-            View.SYSTEM_UI_FLAG_LAYOUT_FULL_SCREEN or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+            View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
 
         val frame = FrameLayout(this)
         val wall = ImageView(this)
