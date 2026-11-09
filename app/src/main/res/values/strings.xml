@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Vidya OS</string>
+    <string name="guard_desc">Keeps Chrome, the YouTube app, other browsers and games closed when the parent rules say so. It only reads which app is on screen and sends the tablet back to the Vidya home screen. It does not read any text.</string>
+</resources>
